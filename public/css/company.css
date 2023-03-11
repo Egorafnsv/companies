@@ -1,0 +1,38 @@
+.field-name{
+    color:rgb(189, 178, 26);
+    font-weight: bold;
+}
+
+.notification{
+    color:rgb(190, 190, 190);
+    font-weight: normal;
+    font-size: 0.9rem;
+    cursor: pointer;
+}
+
+.username{
+    color:rgb(217, 176, 8);
+}
+
+.field-text{
+    overflow-wrap: break-word;
+    width: 75%;
+}
+
+.comment{
+    overflow-wrap: break-word;
+}
+
+.comment-btn{
+    color:rgb(63, 63, 63) !important;
+    text-decoration: none;
+}
+
+.alert{
+    width: 50%;
+}
+
+.form-control:focus {
+    border-color: #ffc107;
+    box-shadow: 0 0 0 0.2rem rgba(255, 193, 7, 0.25);
+} 

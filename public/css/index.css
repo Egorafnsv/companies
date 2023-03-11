@@ -1,0 +1,33 @@
+.company-info{
+    width: 30%;
+}
+
+.company-info p{
+    overflow-wrap: break-word;
+}
+
+.company-info a{
+    text-decoration: none;
+}
+
+.companies-container{
+    width: 80%;
+}
+
+.form-control:focus {
+    border-color: #ffc107;
+    box-shadow: 0 0 0 0.2rem rgba(255, 193, 7, 0.25);
+} 
+
+.alerts-container{
+    width: 40%;
+}
+
+.btn-del{
+    color: rgb(40, 40, 40);
+    cursor: pointer;
+}
+
+.btn-del:hover{
+    color: red;
+}
