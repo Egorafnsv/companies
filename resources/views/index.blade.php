@@ -38,7 +38,7 @@
     </div>
 
     @if ($errors->any())
-    <div class="d-flex mx-auto ps-2 companies-container">
+    <div class="d-flex mx-auto ps-3 companies-container">
         <div class="p-2 alert alert-danger" role="alert">
             @foreach ($errors->all() as $error)
                 <p>{{$error}}</p>

@@ -47,6 +47,8 @@ class CommentController extends Controller
             ->get();
 
             foreach ($comments as &$comment) {
+                $comment->comment = str_replace("<", "&lt;", $comment->comment);
+                $comment->comment = str_replace(">", "&gt;", $comment->comment);
                 $comment->created_at_formatted = $comment->created_at
                                                         ->setTimezone('Europe/Moscow')
                                                         ->format('Y-m-d H:i:s');
